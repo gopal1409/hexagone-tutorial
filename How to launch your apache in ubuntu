@@ -28,4 +28,7 @@ systemctl stop apache2
 ####how to open port using firewllad
 20  firewall-cmd --zone=public --add-service=http
    21  firewall-cmd --zone=public --list-services
+   ####3the above command has issue if you reboot your systme we will loose changes
    
+   firewall-cmd --zone=public --permanent --add-service=http
+   21  firewall-cmd --zone=public --list-services
