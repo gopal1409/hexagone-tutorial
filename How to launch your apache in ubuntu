@@ -32,5 +32,7 @@ systemctl stop apache2
    
    firewall-cmd --zone=public --permanent --add-service=http
    21  firewall-cmd --zone=public --list-services
+   
    ####how about uncommon port
    firewall-cmd --zone=public --permanent --add-port=5000/tcp
+   21  firewall-cmd --zone=public --list-ports
