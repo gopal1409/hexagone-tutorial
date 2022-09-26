@@ -16,3 +16,8 @@ systemctl stop apache2
     9  systemctl enable apache2
     ###to verify the apache server status using api request
     curl localhost
+    #if it is a redhat based package manager system
+    yum install httpd
+    systemctl status httpd
+    systemctl start httpd
+    systemctl enable httpd
