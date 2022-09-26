@@ -6,3 +6,11 @@ systemctl status apache2
 systemctl start apache2
 systemctl enable apache2
 systemctl stop apache2
+####how to check the service on off
+ 3  apt install apache2
+    4  systemctl status apache2
+    5  systemctl stop apache2
+    6  systemctl status apache2
+    7  systemctl start apache2
+    8  systemctl status apache2
+    9  systemctl enable apache2
