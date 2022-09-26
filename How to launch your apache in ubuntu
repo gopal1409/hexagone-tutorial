@@ -25,3 +25,7 @@ systemctl stop apache2
  12  firewall-cmd --get-zones
    16  firewall-cmd --zone=home --list-all
    firewall-cmd --get-active-zones
+####how to open port using firewllad
+20  firewall-cmd --zone=public --add-service=http
+   21  firewall-cmd --zone=public --list-services
+   
