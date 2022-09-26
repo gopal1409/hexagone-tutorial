@@ -14,3 +14,5 @@ systemctl stop apache2
     7  systemctl start apache2
     8  systemctl status apache2
     9  systemctl enable apache2
+    ###to verify the apache server status using api request
+    curl localhost
