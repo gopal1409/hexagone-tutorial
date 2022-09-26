@@ -21,3 +21,7 @@ systemctl stop apache2
     systemctl status httpd
     systemctl start httpd
     systemctl enable httpd
+####firewalld command
+ 12  firewall-cmd --get-zones
+   16  firewall-cmd --zone=home --list-all
+   firewall-cmd --get-active-zones
