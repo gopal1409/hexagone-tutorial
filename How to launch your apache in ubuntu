@@ -1,0 +1,8 @@
+sudo -i
+apt-get update
+apt install apache2
+####to check the service
+systemctl status apache2
+systemctl start apache2
+systemctl enable apache2
+systemctl stop apache2
