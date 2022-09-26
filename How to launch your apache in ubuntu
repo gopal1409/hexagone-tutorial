@@ -32,6 +32,12 @@ systemctl stop apache2
    
    firewall-cmd --zone=public --permanent --add-service=http
    21  firewall-cmd --zone=public --list-services
+   ###tar untar file
+    66  touch newfile
+   67  touch newfile1
+   72  tar -cvf compress.tar newfile newfile1
+   ls
+    76  tar -xvf compress.tar
    
    ####how about uncommon port
    firewall-cmd --zone=public --permanent --add-port=5000/tcp
